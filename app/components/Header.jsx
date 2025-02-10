@@ -32,8 +32,7 @@ const Header = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-w-2xl mx-auto font-Ovo'>
-        I am frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.
-      </p>
+        I'm a passionate full-stack software developer who loves turning ideas into working and efficient web applications.</p>
 
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

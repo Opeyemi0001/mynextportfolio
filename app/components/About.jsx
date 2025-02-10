@@ -26,7 +26,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+        className='flex w-full flex-col lg:flex-row items-center gap-20 my-10'>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -39,9 +39,11 @@ const About = ({ isDarkMode }) => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='flex-1'>
+          className='flex-1 '>
           <p className='mb-10 max-w-2xl font-Ovo'>
-            I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organization, contribution to their succes and growth.
+            I'm Opeyemi Onanuga, an experience full-stack developer passionate about creating dynamic web experiences. From frontend to backend, I thrive on solving complex problems with clean, efficient code. My expertise lies in React, Node.js, Express.js, and MongoDB, and I'm always eager to learn more.
+            I believe in continuous improvement and enjoy collaborating with other developers to build meaningful solutions.
+
           </p>
 
           <motion.ul
