@@ -26,7 +26,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className='flex w-full flex-col lg:flex-row items-center gap-20 my-10'>
+        className='flex flex-col lg:flex-row items-center justify-center w-full max-w-screen-lg mx-auto gap-20 my-10 px-6 sm:px-12'>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -50,7 +50,7 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl' >
+            className='grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-3xl mx-auto' >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
@@ -72,12 +72,13 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.5 }}
-            className='flex items-center gap-3 sm:gap-5'>
-            {toolsData.map((tool, index) => (
+            className='flex items-center flex-wrap justify-center gap-3 sm:gap-5'>
+            {toolsData.map(({ icon, title }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
-                <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
+                className='flex flex-col items-center text-center justify-center w-12 sm:w-14 aspect-square  p-1 border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
+                <Image src={icon} alt='Tool' className='w-5 sm:w-7' />
+                <p className='text-gray-600 text-xs dark:text-white/80 px-10'>{title}</p>
               </motion.li>
             ))}
           </motion.ul>

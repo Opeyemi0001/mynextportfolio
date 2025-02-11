@@ -35,8 +35,32 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import creative_cloud from './creative-cloud.png';
+import css_logo from './css-3.png';
+import github from './github.png';
+import html_logo from './html.png';
+import javascript from './js.png';
+import nodejs from './nodejs.png';
+import react_logo from './physics.png';
+import postman_logo from './postman.png';
+import typescript_logo from './typescript.png';
+import nextjs_logo from './next-js-icon-seeklogo.png';
+import expressjs_logo from './expressjslogo.png';
+import tailwind_logo from './pngwing.com.png';
 
 export const assets = {
+    creative_cloud,
+    tailwind_logo,
+    expressjs_logo,
+    nextjs_logo,
+    css_logo,
+    github,
+    html_logo,
+    javascript,
+    nodejs,
+    react_logo,
+    postman_logo,
+    typescript_logo,
     user_image,
     code_icon,
     code_icon_dark,
@@ -108,10 +132,27 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    // { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
+// export const toolsData = [
+//     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+// ];
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    {icon:assets.html_logo, title: "HTML"},
+    {icon:assets.css_logo, title: "CSS"},
+    {icon:assets.javascript, title: "JavaScript"},
+    {icon:assets.react_logo, title: "React.Js"},
+    {icon:assets.nodejs, title: "Node.Js"},
+    {icon:assets.nextjs_logo, title: "Next.Js"},
+    {icon:assets.typescript_logo, title: "typeScript"},
+    {icon:assets.expressjs_logo, title: "Express.Js"},
+    {icon:assets.tailwind_logo, title: "TailwindCSS"},
+    {icon:assets.mongodb, title: "MongoDB"},
+    {icon:assets.postman_logo, title: "Postman"},
+    {icon:assets.git, title: "Git"},
+    {icon:assets.github, title: "Github"},
+    {icon: assets.vscode, title: "VScode"},
+    {icon:assets.creative_cloud, title: "Adobe Creative Cloud"},
 ];
