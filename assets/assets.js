@@ -102,25 +102,29 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Task Manager App',
+        description: 'Managing and sorting of task build with tailwindCss and Nextjs', // build with tailwindCss and Nextjs
+        bgImage: '/to-do-4483048_640.jpg',
+        websiteLink: 'https://personaltaskmanager-qneq.onrender.com/',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Food resturant App',
+        description: 'Food App', // React vite
+        bgImage: '/food.png',
+        websiteLink: 'https://tomato-app-w8re.vercel.app/ '
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'School website',
+        description: '(React TailwindCSS)',
+        bgImage: '/school.png',
+        websiteLink: 'https://chizzy-kids-school.onrender.com/'
     },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    //     websiteLink: 'https://tomato-app-w8re.vercel.app/'
+    // },
 ]
 
 export const serviceData = [
